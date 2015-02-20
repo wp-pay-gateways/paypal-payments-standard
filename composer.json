@@ -1,0 +1,37 @@
+{
+	"name": "wp-pay-gateways/paypal-payments-standard",
+	"description": "PayPal Payments Standard driver for the WordPress payment processing library.",
+	"keywords": ["wordpress", "wp", "pay", "paypal", "standard", "gateway", "pronamic"],
+	"homepage": "http://www.wp-pay.org/gateways/paypal-payments-standard/",
+	"license": "GPL",
+	"authors": [
+		{
+			"name": "Pronamic",
+			"email": "info@pronamic.eu",
+			"homepage": "http://www.pronamic.eu/",
+			"role": "Company"
+		},
+		{
+			"name": "Remco Tolsma",
+			"email": "info@remcotolsma.nl",
+			"homepage": "http://www.remcotolsma.nl/",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "support@wp-pay.org",
+		"issues": "https://github.com/wp-pay-gateways/paypal-payments-standard/issues",
+		"source": "https://github.com/wp-pay-gateways/paypal-payments-standard"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	},
+	"require": {
+		"php": ">=5.2.4",
+		"wp-pay/core": "~1.0.0",
+		"wp-pay-gateways/paypal": "dev-develop"
+	},
+	"require-dev": {
+		"satooshi/php-coveralls": "dev-master"
+	}
+}
